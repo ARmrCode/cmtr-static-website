@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://cmtr-h1rje3g1-bucket-1759257679 --delete --exclude ".git/*" --acl public-read
+          aws s3 sync . s3://cmtr-h1rje3g1-bucket-1759257679 --delete --exclude ".git/*"
